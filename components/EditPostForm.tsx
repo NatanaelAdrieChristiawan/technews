@@ -184,7 +184,7 @@ export default function EditPostForm({ post }: { post: TPost} ) {
             </div>
           ))}
 
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2 sm:flex-row sm:items-center">
                 <input 
                 className="flex-1" 
                 type="text" 
@@ -192,7 +192,7 @@ export default function EditPostForm({ post }: { post: TPost} ) {
                 value={linkInput}
                 placeholder="Paste The Link and Click on Add"
                 />
-                <button onClick={addLink} className="btn flex gap-2 items-center">
+                <button onClick={addLink} className="btn flex gap-2 items-center sm:ml-2 sm:mt-0">
                     <span>
                     <svg 
                     xmlns="http://www.w3.org/2000/svg" 

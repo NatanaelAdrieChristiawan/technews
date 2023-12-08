@@ -167,7 +167,7 @@ export default function CreatePostForm() {
                  </div>
             ))}
 
-            <div className="flex gap-2 sm:flex-row sm:items-center">
+            <div className="flex flex-wrap gap-2 sm:flex-row sm:items-center">
                 <input 
                 className="flex-1" 
                 type="text" 
