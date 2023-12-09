@@ -32,12 +32,15 @@ export default function Navbar() {
     <div className="flex justify-between pb-4 border-b mb-4 relative">
         <div>
             <Link href={"/"}>
-                <h1 className="text-dark text-4xl font-bold tracking-tighter">
-                    Tech News
-                </h1>
+            <h1 className="text-4xl font-bold tracking-tighter bg-gradient-to-r from-blue-500 via-red-700 to-green-500 text-transparent bg-clip-text">
+            NNK News
+            </h1>
+
+
+
             </Link>
             <p className="text-sm">
-                Exploring Tomorrow&apos; Innovations, <br /> One Byte at a Time.
+            Update Tiada Henti Bersama NNK News. <br /> NNK News - Lebih Tahu Lebih Update.
             </p>
         </div>
 
@@ -65,7 +68,7 @@ export default function Navbar() {
                     >
                         Create Post
                     </Link>
-                    <button onClick={() => signOut()} className="btn">
+                    <button onClick={() => signOut()} className="btn1">
                         Sign Out
                     </button>
                 </div>

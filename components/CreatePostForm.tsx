@@ -227,7 +227,7 @@ export default function CreatePostForm() {
             {publicId && (
             <button 
             onClick={removeImage} 
-            className="py-2 px-4 rounded-md font-bold w-fit bg-red-600 text-white mb-4"
+            className="btn1 w-fit"
             >
                 Remove Image
             </button>
